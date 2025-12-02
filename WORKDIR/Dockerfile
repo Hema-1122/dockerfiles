@@ -1,4 +1,4 @@
-FROM almalinux 9.3
+FROM almalinux:9.3
 RUN mkdir /app
 workdir /app
 RUN pwd
