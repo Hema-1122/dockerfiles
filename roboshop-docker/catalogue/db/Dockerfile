@@ -1,5 +1,5 @@
 FROM node:20
-workdir /opt/server
+WORKDIR /opt/server
 copy package.json .
 copy *.js .
 RUN
